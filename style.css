@@ -1,0 +1,101 @@
+Body{
+    background-color: darkgrey;
+    background-image: url(images/frquarter1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Amatic SC', cursive;
+    color: crimson;
+    font-size: 75px;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: rgba(255,255,255,0.7);
+}
+h2{
+   font-family: 'Amatic SC', cursive;
+    color: crimson;
+    font-size: 75px;
+    font-weight: bold;
+}
+#intro{
+     width: px;
+    padding: 5px;
+    margin: 5px;   
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
+    color: crimson;
+    text-align: center;
+    background-color: rgba(255,255,255,0.7);
+}
+p{
+    padding: 5px;
+    margin: 5px;   
+    font-size: 50px;
+    font-family: 'Amatic SC', cursive;
+    color: crimson;
+    text-align: center;
+    background-color: rgba(255,255,255,0.7);
+
+}
+#drago{
+    color: chartreuse;
+}
+#roses{
+    color: fuchsia;
+}
+#rocky{
+    color: yellow;
+}
+#delicious{
+    color: darkorange;
+}
+#oyster{
+    text-align: center;
+}
+#claypot{
+    text-align: right;
+}
+#maccaroni{
+    text-align: justify;
+}
+#pasta{
+    text-align: center;
+}
+.info{
+    float: right;
+}
+.button{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    font-size: 25px;
+    display: inline-block;
+    border: solid 2px black;
+    padding: ;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: floralwhite;
+    font-family: 'Amatic+SC', cursive;
+    color: crimson;
+}
+.button:hover{
+    background-color: yellow;
+    bottom: 10px;
+    left: 10px;
+    transition: 0.5s all;
+}
+/* Pseudo-element */
+h1::before{
+    content: "~"
+}
+h1::after{
+    content: "~";
+}
+h2::before{
+    content: "~"
+}
+h2::after{
+    content: "~";
+}
